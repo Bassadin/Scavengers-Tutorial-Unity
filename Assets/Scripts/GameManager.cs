@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    //Class vars
     public static GameManager instance = null;
+    
+    //Inst  vars
     public BoardManager boardScript;
 
     private int level = 3;
